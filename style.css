@@ -8,3 +8,14 @@
 .blue {
   color: navy;
 }
+
+img {
+  height: 200px;
+  width:auto;
+  margin: 50px;
+  border: solid navy 5px;
+}
+
+#home p {
+  float: right;
+}
