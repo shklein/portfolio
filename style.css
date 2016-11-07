@@ -12,10 +12,13 @@
 img {
   height: 200px;
   width:auto;
-  margin: 50px;
+  margin: 0px 50px;
   border: solid navy 5px;
+  float: left;
+  clear: both;
 }
 
-#home p {
-  float: right;
+h4 {
+  margin: 25px 0px 50px 0;
+  display: block;
 }
