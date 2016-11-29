@@ -18,7 +18,7 @@
 
 .intro
 {
-  margin-top: 65px;
+  margin-top: 50px;
 }
 
 .frame {
@@ -34,4 +34,9 @@
 .frame img {
   width: 400px;
   height: auto;
+}
+
+.twitter {
+  height: 64px;
+  width: 64px;
 }
