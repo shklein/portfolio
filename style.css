@@ -1,9 +1,17 @@
+body {
+  font-family: 'Lucida Console', sans-serif;
+}
+
 
 .centered-pills { text-align: center }
 .centered-pills ul.nav-pills { display: inline-block }
 .centered-pills li { display: inline }
 .centered-pills a { float: left }
 * html .centered-pills ul.nav-pills, *+html .centered-pills ul.nav-pills { display: inline }
+
+ul {
+  list-style-type: none;
+}
 
 .blue {
   color: navy;
@@ -39,4 +47,28 @@
 .twitter {
   height: 64px;
   width: 64px;
+}
+
+.section {
+  margin: 60px;
+}
+
+.section h2 {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.connect ul {
+  display: inline-block;
+}
+
+.connect li {
+  display: inline;
+}
+
+.connect a {
+  float: left;
+}
+.connect img {
+  margin-left: 25px;
 }
